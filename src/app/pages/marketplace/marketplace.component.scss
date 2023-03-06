@@ -1,0 +1,98 @@
+// .button{
+//     position: absolute;
+//     height: 10%;
+//     width: 200%;
+//     left: -100%;
+//     z-index: -1;
+//     transition: all .4s;
+//     background: -webkit-linear-gradient(right,#00dbde,#fc00ff,#00dbde,#fc00ff);
+//   }
+//   .button:hover .inner{
+//     left: 0;
+//   }
+//   .button button{
+//     width: 100%;
+//     height: 100%;
+//     border: none;
+//     background: none;
+//     outline: none;
+//     color: white;
+//     font-size: 20px;
+//     cursor: pointer;
+    
+//   }
+
+.topics{
+  font-size: 1.3rem;
+  margin-left: 3%;
+}
+.topics-1{
+  font-size: 1.3rem;
+  margin-top: 1%;
+}
+.topics-2{
+  font-size: 1.3rem;
+  margin-left: 3%;
+}
+#down1{
+  margin-left: 5%;
+  font-size: 100%;
+  width: 7%;
+  height: 10%;
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(#688f90), to(#29989c));
+}
+#down2{
+  margin-left: 5%;
+  font-size: 100%;
+  width: 7%;
+  height: 10%;
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f0deb8), to(#d3a109));
+}
+#down3{
+  margin-left: 5%;
+  font-size: 100%;
+  width: 7%;
+  height: 10%;
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ecaaab), to(#ea1d2e));
+}
+#down4{
+  margin-left: 5%;
+  font-size: 100%;
+  width: 7%;
+  height: 10%;
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(#eb88cf), to(#ea1dd2));
+}
+#down5{
+  margin-left: 5%;
+  font-size: 100%;
+  width: 7%;
+  height: 10%;
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6980dc), to(#3955de));
+}
+#down6{
+  margin-left: 5%;
+  font-size: 100%;
+  width: 7%;
+  height: 10%;
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(#66b5b3), to(#0daeb3));
+}
+#down7{
+  margin-left: 5%;
+  font-size: 100%;
+  width: 10%;
+  height: 10%;
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(#a5e3e4), to(#1de3ea));
+}
+
+  .button:hover{
+    left: 0;
+    width: 9%;
+    height: 20%;
+  }
