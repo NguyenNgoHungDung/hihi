@@ -5,10 +5,21 @@
   <button id="down3">History</button>
   <button id="down4">Literature</button>
   <button id="down5">Physic</button>
-  <button id="down6">geography</button>
-  <button id="down7">information technology</button>
+  <button id="down6">Geography</button>
+  
 </div>
+<!-- <a class="next" onclick="plusSlides(1)">❯</a> -->
 
 <div class="topics-2">New and Trending</div>
   
-
+<div class="math">
+  <div *ngFor="let item of trending" >
+    <app-trending [trending]="item"></app-trending>
+  </div>
+</div>
+<div class="topics-2">English Grammar </div>
+<div class="math">
+  <div *ngFor="let item of Eng" >
+    <app-trending [trending]="item"></app-trending>
+  </div>
+</div>

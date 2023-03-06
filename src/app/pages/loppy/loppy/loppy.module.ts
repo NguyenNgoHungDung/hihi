@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { LoppyRoutingModule } from './loppy-routing.module';
 import { LoppyComponent } from './loppy.component';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { LoppyComponent } from './loppy.component';
   ],
   imports: [
     CommonModule,
-    LoppyRoutingModule
+    LoppyRoutingModule,
+    SharedModule,
   ]
 })
 export class LoppyModule { }

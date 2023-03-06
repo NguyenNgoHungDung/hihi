@@ -24,7 +24,8 @@
 
 .topics{
   font-size: 1.3rem;
-  margin-left: 3%;
+  margin-left: 4%;
+  margin-top: 3%;
 }
 .topics-1{
   font-size: 1.3rem;
@@ -32,67 +33,92 @@
 }
 .topics-2{
   font-size: 1.3rem;
-  margin-left: 3%;
+  margin-left: 4%;
+  margin-top: 1%;
 }
 #down1{
-  margin-left: 5%;
+  max-height: 7vh;
+  min-height: 7vh;
+ border-radius: 10px;
+  margin-left: 4%;
   font-size: 100%;
-  width: 7%;
+  width: 12%;
   height: 10%;
   color: white;
   background: -webkit-gradient(linear, left top, left bottom, from(#688f90), to(#29989c));
 }
 #down2{
-  margin-left: 5%;
+  max-height: 7vh;
+  min-height: 7vh;
+  border-radius: 10px;
+  margin-left: 2%;
   font-size: 100%;
-  width: 7%;
+  width: 12%;
   height: 10%;
   color: white;
   background: -webkit-gradient(linear, left top, left bottom, from(#f0deb8), to(#d3a109));
 }
 #down3{
-  margin-left: 5%;
+  max-height: 7vh;
+  min-height: 7vh;
+  border-radius: 10px;
+  margin-left: 2%;
   font-size: 100%;
-  width: 7%;
+  width: 12%;
   height: 10%;
   color: white;
   background: -webkit-gradient(linear, left top, left bottom, from(#ecaaab), to(#ea1d2e));
 }
 #down4{
-  margin-left: 5%;
+  max-height: 7vh;
+  min-height: 7vh;
+  border-radius: 10px;
+  margin-left: 2%;
   font-size: 100%;
-  width: 7%;
+  width: 12%;
   height: 10%;
   color: white;
   background: -webkit-gradient(linear, left top, left bottom, from(#eb88cf), to(#ea1dd2));
 }
 #down5{
-  margin-left: 5%;
+  max-height: 7vh;
+  min-height: 7vh;
+  border-radius: 10px;
+  margin-left: 2%;
   font-size: 100%;
-  width: 7%;
+  width: 12%;
   height: 10%;
   color: white;
   background: -webkit-gradient(linear, left top, left bottom, from(#6980dc), to(#3955de));
 }
 #down6{
-  margin-left: 5%;
+  max-height: 7vh;
+  min-height: 7vh;
+  border-radius: 10px;
+  margin-left: 2%;
   font-size: 100%;
-  width: 7%;
+  width: 12%;
   height: 10%;
   color: white;
   background: -webkit-gradient(linear, left top, left bottom, from(#66b5b3), to(#0daeb3));
 }
-#down7{
-  margin-left: 5%;
-  font-size: 100%;
-  width: 10%;
-  height: 10%;
-  color: white;
-  background: -webkit-gradient(linear, left top, left bottom, from(#a5e3e4), to(#1de3ea));
+// #down7{
+//   margin-left: 2%;
+//   font-size: 100%;
+//   width: 12%;
+//   height: 10%;
+//   color: white;
+//   background: -webkit-gradient(linear, left top, left bottom, from(#a5e3e4), to(#1de3ea));
+// }
+
+
+  .math{
+    display: flex;
+    margin-left: 3%;
+    gap: 2rem;
+
+
+
 }
 
-  .button:hover{
-    left: 0;
-    width: 9%;
-    height: 20%;
-  }
+
